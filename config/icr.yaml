@@ -1,8 +1,8 @@
 template:
   title: ICR Training
-  # logo:
-  #   src: /ox_rse.svg
-  #   alt: OxRSE logo
+  logo:
+    src: /ox_rse.svg
+    alt: OxRSE logo
   description: Adapted by ICR RSE team
   frontpage:
     intro: This is the teaching website was adapted from the [Oxford Research Software

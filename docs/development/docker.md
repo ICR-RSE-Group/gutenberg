@@ -34,7 +34,7 @@ docker-compose up --build
 ```
 
 Although this isn't particularly quick. By default the compose setup will pull
-the repo from the source defined in `config/oxford.yaml`, though you can change
+the repo from the source defined in `config/icr.yaml`, though you can change
 this from inside the `dev-compose.yml`, either by changing the `YAML_TEMPLATE`
 value (under `services.gutenberg.build.args`) to a different config yaml file or
 changing `MATERIAL_METHOD` to `"copy"` to copy a locally checked out folder into

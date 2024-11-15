@@ -18,7 +18,7 @@ This document describes the environment variables used in the project, please se
 : This is the path to the YAML template file. This should be laid out as described [here]({{ "/config/template" | relative_url }}).
 
 `NEXT_PUBLIC_MATERIAL_URL`
-: Default: `https://github.com/UNIVERSE-HPC/course-material`
+: Default: `https://github.com/ICR-RSE-Group/universe-hpc-course-material`
 : This is the URL where the course material is hosted.
 
 `NEXT_PUBLIC_BASEPATH`

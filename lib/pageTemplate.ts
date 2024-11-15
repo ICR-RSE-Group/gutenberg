@@ -1,7 +1,7 @@
 import * as fs from "fs"
 import * as yaml from "js-yaml"
 
-const yamlTemplate = process.env.YAML_TEMPLATE || "config/oxford.yaml"
+const yamlTemplate = process.env.YAML_TEMPLATE || "config/icr.yaml"
 
 export type PageTemplate = {
   title: string

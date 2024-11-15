@@ -14,8 +14,8 @@ The application consists of two key components:
 
 ## Course Material
 
-[Course material](https://github.com/UNIVERSE-HPC/course-material) is provided currently from the [HPC Universe Project](https://universe-hpc.github.io/) though this can reasonably be exchanged for any similarly styled sets of course material in the form of markdown files.
-The structure of the markdown content is described in the HPC universe [contribution guide](https://github.com/UNIVERSE-HPC/course-material/blob/main/CONTRIBUTING.md).
+[Course material](https://github.com/ICR-RSE-Group/universe-hpc-course-material) is provided currently from the [HPC Universe Project](https://universe-hpc.github.io/) though this can reasonably be exchanged for any similarly styled sets of course material in the form of markdown files.
+The structure of the markdown content is described in the HPC universe [contribution guide](https://github.com/ICR-RSE-Group/universe-hpc-course-material/blob/main/CONTRIBUTING.md).
 
 The course material which the application will use can be configured to be any git repository, or multiple repositories.
 

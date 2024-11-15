@@ -26,7 +26,7 @@ The config yaml file has the following structure:
     - **path**:
       : Unique identifier for the repo, this is used for subdpath in the /material path on the deployed site.
     - **url**:
-      : The URL of the material repo, e.g. `https://github.com/UNIVERSE-HPC/course-material`.
+      : The URL of the material repo, e.g. `https://github.com/ICR-RSE-Group/universe-hpc-course-material`.
     - **exclude**:
       : You can exclude certain sections and courses from the material repo, this is useful if you want to include a subset of the material in your deployment.
       - **theme**:
@@ -36,4 +36,4 @@ The config yaml file has the following structure:
       - **section**:
         : A list of sections to exclude from the material repo, this should match the "id" field in the section markdown page.
 
-Create a template for your deployment, place it in the `config` directory, e.g. `config/oxford.yaml` for Oxford. Then set the `YAML_TEMPLATE` environment variable to the path of this file.
+Create a template for your deployment, place it in the `config` directory, e.g. `config/icr.yaml` for Oxford. Then set the `YAML_TEMPLATE` environment variable to the path of this file.

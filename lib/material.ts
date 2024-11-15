@@ -138,7 +138,7 @@ export function removeMarkdown(material: Material, except: Material | Theme | Co
 const materialDir = `${process.env.MATERIAL_DIR}`
 
 function getrepos() {
-  const fileContents = fs.readFileSync("config/oxford.yaml")
+  const fileContents = fs.readFileSync("config/icr.yaml")
   // @ts-expect-error
   const repos = yaml.load(fileContents).material
   return repos

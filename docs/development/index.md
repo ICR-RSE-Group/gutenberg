@@ -23,10 +23,10 @@ First, clone the repository:
 git clone https://github.com/OxfordRSE/gutenberg.git
 ```
 
-Then navigate to the newly created gutenberg base directory and clone the [material repository](https://github.com/UNIVERSE-HPC/course-material) into the `.material` folder.
+Then navigate to the newly created gutenberg base directory and clone the [material repository](https://github.com/ICR-RSE-Group/universe-hpc-course-material) into the `.material` folder.
 
 ```bash
-git clone https://github.com/UNIVERSE-HPC/course-material .material
+git clone https://github.com/ICR-RSE-Group/universe-hpc-course-material .material
 ```
 
 This will populate the teaching material into the app when the application is launched.

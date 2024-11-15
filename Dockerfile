@@ -10,11 +10,11 @@ ARG NODE_VERSION=20.9-alpine
 ####
 # MATERIAL OPTION: PULL
 # Pull course material into the app directory from a defined repo. Default is
-# the Oxford course material repo defined in the config/oxford.yaml file.
+# the Oxford course material repo defined in the config/icr.yaml file.
 FROM python:${PYTHON_VERSION} AS pull_material
 
 # Variables for the material pull script
-ARG YAML_TEMPLATE=config/oxford.yaml
+ARG YAML_TEMPLATE=config/icr.yaml
 ARG MATERIAL_DIR=.material
 ARG CACHE_BUST=20240514
 

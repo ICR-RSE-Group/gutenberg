@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 BASE_DIR = pathlib.Path(__file__).parent.parent
 
 # Read the enviroment, or else use sensible defaults
-env_yaml_template = os.getenv('YAML_TEMPLATE', 'config/oxford.yaml')
+env_yaml_template = os.getenv('YAML_TEMPLATE', 'config/icr.yaml')
 env_base_material_dir = os.getenv('MATERIAL_DIR', '.material')
 
 # Fully-resolved absolute paths to the yaml template and material dir
