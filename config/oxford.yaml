@@ -1,17 +1,17 @@
 template:
-  title: OxRSE Training
-  logo:
-    src: /ox_rse.svg
-    alt: OxRSE logo
-  description: Created by OxRSE team
+  title: ICR Training
+  # logo:
+  #   src: /ox_rse.svg
+  #   alt: OxRSE logo
+  description: Adapted by ICR RSE team
   frontpage:
-    intro: This is the teaching website for the [Oxford Research Software
-      Engineering Group](https://www.rse.ox.ac.uk/ ). Please see our list of past and upcoming courses
+    intro: This is the teaching website was adapted from the [Oxford Research Software
+      Engineering Group](https://www.rse.ox.ac.uk/). Please see our list of past and upcoming courses
       on the left.
 
 
       The material for these courses is generated from a
-      set of [markdown materials](https://github.com/UNIVERSE-HPC/course-material) collated by
+      set of [markdown materials](https://github.com/ICR-RSE-Group/universe-hpc-course-material) collated by
       the [UNIVERSE-HPC project](https://universe-hpc.github.io),
       a joint collaboration between RSE teams at Oxford, Southampton,
       Imperial and Edinburgh, the Software Sustainability Institute and the
@@ -21,9 +21,9 @@ template:
       These materials have been collated from a variety of sources published under different [CC-BY licenses](https://creativecommons.org/about/cclicenses/) . The
       attributions for each course and section are given on the relevant
       pages, alongside the exact license of the original work.
-  footer: University of Oxford, [Oxford Research Software Engineering](https://www.rse.ox.ac.uk/)
+  footer: Adapted from the OxRSE team, University of Oxford, [Oxford Research Software Engineering](https://www.rse.ox.ac.uk/)
 material:
   HPCu:
     path: HPCu
-    url: https://github.com/UNIVERSE-HPC/course-material
+    url: https://github.com/ICR-RSE-Group/universe-hpc-course-material
     exclude:
